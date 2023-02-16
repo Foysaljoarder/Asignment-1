@@ -4,6 +4,7 @@
     font-family: 'Work Sans', sans-serif;
 }
 
+/* banner-section */
 
 .banner {
     background-image: url(images/banner/banner3.png);
@@ -39,4 +40,150 @@
     color: #005FAC;
     size: 20px;
     border: 0px;
+}
+
+/* description-section */
+#description-section {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 80px 155px;
+}
+
+.details {
+    margin-left: 200px;
+}
+
+.details .details-heading {
+    font-size: 40px;
+    font-weight: 700;
+    color: #151414;
+}
+
+.details .details-paragraph {
+    font-size: 16px;
+    font-weight: 400;
+    color: #444343;
+    padding-top: 24px;
+}
+
+/* plan-section */
+.plan-title {
+    text-align: center;
+    margin-top: 100px;
+}
+
+.plan-execute {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin-top: 50px;
+}
+
+.plan .plan-name {
+    padding: 10px;
+    text-align: center;
+    font-size: 30px;
+    font-weight: 700;
+    color: #151414;
+}
+
+.plan .plan-description {
+    padding-top: 16px;
+    font-size: 25px;
+    font-weight: 500;
+    text-align: center;
+    color: #737272;
+}
+
+/* main section end */
+.positive-mindset {
+    background-image: linear-gradient(90deg, #005FAC 0%, rgba(0, 95, 172, 0) 70%), url(images/watch.png);
+    background-repeat: no-repeat;
+    height: 200px;
+    margin: 110px 230px;
+    border-radius: 8px;
+    background-size: cover;
+    padding: 59px 64px;
+}
+
+.positive-mindset .header {
+    font-size: 40px;
+    font-weight: 700;
+    color: #FFFFFF;
+}
+
+.positive-mindset .btn-1 {
+    height: 64px;
+    width: 140px;
+    border-radius: 5px;
+    color: #005FAC;
+    size: 20px;
+    border: 0px;
+    margin-top: 24px;
+}
+
+/* footer section */
+#footer {
+    border: 0px;
+    background: #151414;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 450px;
+}
+
+.future {
+    margin-top: 70px;
+    margin-left: 100px;
+    margin-right: 500px;
+
+}
+
+.future .heading {
+    font-size: 45px;
+    font-weight: 700;
+    color: #F8F8F8;
+    padding: 15px;
+}
+
+.future .paragraph {
+    font-size: 16px;
+    font-weight: 400;
+    color: #FFFFFF;
+    padding: 15px;
+}
+
+.subscribe {
+    margin-top: 250px;
+    margin-right: 230px;
+    margin-bottom: 240px;
+}
+
+.subscribe .title {
+    font-size: 25px;
+    font-weight: 600;
+    color: #FFFFFF;
+    padding-bottom: 30px;
+}
+
+.subscribe .email {
+    padding: 10px;
+    color: #F3F3F3;
+    background-color: #1414155d;
+    position: absolute;
+    font-size: 18px;
+    font-weight: 400;
+    border-radius: 8px;
+}
+
+.btn {
+    font-size: 20px;
+    font-weight: 600;
+    color: #FFFFFF;
+    background-color: #005FAC;
+    height: 64px;
+    width: 170px;
+    margin-top: 65px;
+    border-radius: 8px;
 }
